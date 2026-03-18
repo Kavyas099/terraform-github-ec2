@@ -10,7 +10,7 @@ resource "aws_instance" "kavya" {
 
 resource "aws_security_group" "allow_tls" {
   name = "allow-tls"
-  description = "this is sg id"
+  description = "this is ssddsg id"
 
    ingress {
     from_port   = 22
